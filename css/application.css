@@ -44,6 +44,45 @@ body {
   .button_white:hover {
     background: #e7e7e7; }
 
+#main_header {
+  color: #22292e;
+  background: #FFFFFF;
+  padding: 2.5rem 0; }
+  #main_header #logo {
+    float: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #22292e;
+    text-decoration: none; }
+  #main_header nav {
+    float: right; }
+    #main_header nav ul {
+      list-style: none;
+      margin: 0; }
+      #main_header nav ul li {
+        display: inline;
+        margin-left: 2.5rem; }
+        #main_header nav ul li a {
+          color: #22292e;
+          text-decoration: none; }
+
+#banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 3rem; }
+  #banner h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 6rem 0; }
+
+.podcasts_banner {
+  background-image: url(../images/podcasts_banner.jpg); }
+
 #background {
   background-image: url(../images/welcome_background.jpg);
   height: 100vh;
@@ -435,3 +474,26 @@ table {
 td,
 th {
   padding: 0; }
+
+#podcasts {
+  padding-bottom: 3rem; }
+  #podcasts ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0; }
+    #podcasts ul li {
+      width: 23%;
+      float: left;
+      margin: 0 1% 2rem 1%;
+      -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25); }
+      #podcasts ul li img {
+        width: 100%;
+        max-width: 100%; }
+      #podcasts ul li .podcast_overview {
+        padding: 0.5rem 5.5%; }
+        #podcasts ul li .podcast_overview h2 {
+          margin: 0;
+          font-size: 1rem;
+          font-weight: 700;
+          color: #22292e; }
